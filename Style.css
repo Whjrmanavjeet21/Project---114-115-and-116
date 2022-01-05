@@ -1,0 +1,28 @@
+body {
+    font-family: 'Niconne', cursive;
+    border: blue ridge 20px;
+}
+#heading {
+    font-size: x-large;
+}
+#button {
+    font-size: 30px;
+}
+.btn-primary:hover
+{
+    background-color: rgb(241, 11, 22);
+    font-weight: bolder;
+    font-size: 35px;
+}
+canvas {
+    margin-top: 90px;
+    border: crimson ridge 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px #dceb15;}
+    to {box-shadow: 1px 1px 38px #b80c62;}
+}
